@@ -1,0 +1,12 @@
+[project]
+name = "zenv"
+version = "0.1.0"
+description = "Fast Python environment and version manager"
+dependencies = ["typer"]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project.scripts]
+zenv = "zenv.cli:main"
